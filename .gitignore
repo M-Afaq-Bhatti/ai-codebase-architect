@@ -1,0 +1,49 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ---- Virtual Environments ----
+venv/
+.env/
+.env.bak/
+.venv/
+env/
+ENV/
+aicodebase 
+# ---- Jupyter / VS Code ----
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.code-workspace
+
+# ---- Logs / Cache ----
+*.log
+*.tmp
+*.DS_Store
+.cache/
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# ---- Data / Models ----
+data/raw_code/
+data/processed_chunks/
+*.pkl
+*.h5
+*.pt
+*.ckpt
+*.csv
+*.json
+
+# ---- OS / Misc ----
+Thumbs.db
+.DS_Store

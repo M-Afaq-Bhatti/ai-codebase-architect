@@ -1,0 +1,6 @@
+langchain
+chromadb
+openai
+tiktoken
+tree_sitter
+python-dotenv

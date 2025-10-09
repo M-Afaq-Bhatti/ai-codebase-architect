@@ -4,3 +4,4 @@ openai
 tiktoken
 tree_sitter
 python-dotenv
+GitPython

@@ -47,3 +47,4 @@ data/processed_chunks/
 # ---- OS / Misc ----
 Thumbs.db
 .DS_Store
+".env" 

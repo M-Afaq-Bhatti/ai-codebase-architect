@@ -1,8 +1,12 @@
-from src.ingestion.code_ingestor import CodeIngestor
+from src.embeddings.code_embedder import CodeEmbedder
 
-# Example usage:
 if __name__ == "__main__":
-    ingestor = CodeIngestor(repo_path="D:/gen ai projects/endtoend_proj/medical_chatbot")  
-    files = ingestor.collect_files()
-    data = ingestor.read_files(files)
-    ingestor.save_json(data)
+    embedder = CodeEmbedder(
+        input_path="data/processed_chunks/processed_chunks.json",
+        output_path="data/processed_chunks/embeddings.json",
+        # print("🔍 Loading from:", self.input_path)
+    )
+
+    parsed_code = embedder.load_parsed_code()
+    embeddings = embedder.generate_embeddings(parsed_code)
+    embedder.save_embeddings(embeddings)

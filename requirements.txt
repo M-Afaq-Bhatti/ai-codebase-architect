@@ -5,3 +5,6 @@ tiktoken
 tree_sitter
 python-dotenv
 GitPython
+groq
+sentence-transformers
+chroma

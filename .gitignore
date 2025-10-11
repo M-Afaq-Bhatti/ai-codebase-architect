@@ -53,3 +53,6 @@ data/processed_chunks/
 Thumbs.db
 .DS_Store
 
+# ---- Directories to Ignore ----
+repo_clone
+vector_db

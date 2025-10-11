@@ -8,3 +8,5 @@ GitPython
 groq
 sentence-transformers
 chroma
+chromadb
+langchain-community

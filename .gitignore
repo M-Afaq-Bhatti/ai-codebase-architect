@@ -19,6 +19,11 @@ venv/
 env/
 ENV/
 aicodebase 
+
+# ---- Secrets / Environment Variables ----
+.env
+*.env
+
 # ---- Jupyter / VS Code ----
 .ipynb_checkpoints/
 .vscode/
@@ -47,4 +52,4 @@ data/processed_chunks/
 # ---- OS / Misc ----
 Thumbs.db
 .DS_Store
-".env" 
+
